@@ -33,6 +33,7 @@ play.addEventListener('click', e => {
     draw();
     moveSquare();
     point = 0;
+    timer = 30;
     var interval = setInterval(function() {
       document.getElementById('countdown').innerHTML = count;
       count--;
