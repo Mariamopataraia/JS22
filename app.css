@@ -9,7 +9,7 @@ button {
     /* background-color: #f0ff1d */
     height: 60px; 
     width:60px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .point {
     color: rgb(12, 212, 28);
