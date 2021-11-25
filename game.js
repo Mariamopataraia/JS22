@@ -26,7 +26,7 @@ play.addEventListener('click', e => {
   // timer = setInterval(updateTimer, 1000);
   // updateTimer();
   // $('#playAgainButton').hide();
-  var count = 5;
+  var count = 30;
 
   function startGame() {
     moveTarget();
@@ -85,10 +85,10 @@ startGame();
 function draw() {
   resetCanvas();
   // Big square
-  context.fillStyle = 'red';
+  context.fillStyle = '#f0ff1d','border';
   context.fillRect(squareX, squareY, squareSize, squareSize);
   // Small square
-  context.fillStyle = 'green';
+  context.fillStyle = 'hsl(283, 93%, 53%)';
   context.fillRect(targetX, targetY, targetSize, targetSize);
   // pointIs.innerHTML = 'შენი ქულა';
   pointIs.innerHTML = point;
